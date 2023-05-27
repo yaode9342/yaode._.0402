@@ -297,22 +297,9 @@ if (input == 'a' || input == 'A') {
     // 加速向下移動方塊
     while (tetromino.canMoveDown(board)) {
         tetromino.moveDown();
-    }
-}
-
-
-    int gameSpeed = 500;
-
-    while (true) {
-      
-
-
-        clock_t startTime = clock();
-        while ((clock() - startTime) * 1000 / CLOCKS_PER_SEC < gameSpeed) {
-            // 等待
+            }
         }
     }
 }
-    }
 
 
